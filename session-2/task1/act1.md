@@ -33,3 +33,4 @@ Adjust the variable values to test the code.
 3. **Research question**
 
 Why does `sizeof()` return a `long int` value rather than an `int`?
+- To ensure it can represent the largest possible object, which may exceed the size of the int

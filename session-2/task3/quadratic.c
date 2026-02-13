@@ -15,6 +15,7 @@ int main( void ) {
     float b = -5.0;
     float c = 6.0;
     float root1, root2;
+    float discremenant;
 
     /*
      * Implement the formula for the 2 roots of a quadratic.
@@ -22,7 +23,12 @@ int main( void ) {
      * Print out the final results for the 2 roots as float values.
      */
 
-    
+    discremenant = (b*b - 4*a*c);
+    root1 = (-b + sqrt(discremenant) / (2*a));
+    root2 = (+b + sqrt(discremenant) / (2*a));
+
+    printf("Root1 is = %2f\n", root1);
+    printf("Root2 is = %2f\n", root2);
 
     return 0;
 }

@@ -27,6 +27,7 @@ Compile and run the code and examine the output.
 What format is the memory address displayed as?
 
 3. Research and discuss why a pointer is statically typed.
+- A pointer is statically typed as it's type is determined at compile time, indicating the data type it can point to , ensuring type safety and allowing the compiler to type check
 
 - ie. a pointer to an integer has to be declared as `int *p`
 - Hint: it is not connected to what it stores - all pointers store an address
