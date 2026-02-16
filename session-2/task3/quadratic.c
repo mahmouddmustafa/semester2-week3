@@ -11,9 +11,9 @@
 
 int main( void ) {
 
-    float a = 1.0;
-    float b = -5.0;
-    float c = 6.0;
+    float a = 2;
+    float b = 5;
+    float c = -3;
     float root1, root2;
     float discremenant;
 
@@ -24,8 +24,8 @@ int main( void ) {
      */
 
     discremenant = (b*b - 4*a*c);
-    root1 = (-b + sqrt(discremenant) / (2*a));
-    root2 = (+b + sqrt(discremenant) / (2*a));
+    root1 = ((-b + sqrt(discremenant)) / (2*a));
+    root2 = ((-b - sqrt(discremenant)) / (2*a));
 
     printf("Root1 is = %2f\n", root1);
     printf("Root2 is = %2f\n", root2);
